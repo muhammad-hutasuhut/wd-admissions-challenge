@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+      <title>Toy Story 4</title>
+   </head>
+   <body>
+      <section class="bg">
+      </section>
+      <section class="first">
+         <img src="images/toystory4_movie_poster.jpeg" alt="" width="325px" height="500px">
+         <h1>Toy Story 4</h1>
+         <h2>Synopsis</h2>
+         </div>
+         <div class="yellow"></div>
+         <p> Woody and the gang go on a road trip with new toy Forky, who's convinced he's trash and doesn't yet
+            understand his role in the world. Along the way, Woody is unexpectedly reunited with independent spirit Bo
+            Peep and finds himself faced with a decision, and a future, he never imagined
+         </p>
+         <h2>Characters</h2>
+         </div>
+         <div class="yellow"></div>
+      </section>
+      <section class="second">
+         <div class="row">
+            <div class="col">
+               <h3>Woddy</h3>
+               <div class="woddy">
+                  <img src="images/character_woody.jpg" alt="">
+                  <span>Played by</span>
+                  <span><a href="https://en.wikipedia.org/wiki/Tom_Hanks">Tom Hanks</a></span>  
+                  <p> He is a vintage cowboy doll that originally belonged to a boy
+                     named Andy Davis. As Andy's favorite since kindergarten, Woody
+                     served as the leader of Andy's toys, a position he upheld by
+                     looking out for each member of the group. When Andy enters
+                     adulthood and leaves for college, Woody is donated to a little
+                     girl named Bonnie Anderson. He remains with Bonnie for some time,
+                     before choosing to become an owner-less antique devoted to helping
+                     lost toys find owners, alongside his girlfriend Bo Peep.
+                  </p>
+               </div>
+            </div>
+            <div class="col">
+               <h3>Buzz Lightyear</h3>
+               <div class="buzz">
+                  <img src="images/character_buzz.jpg" alt="">
+                  <span>Played by</span>
+                  <span><a href="https://en.wikipedia.org/wiki/Tim_Allen">Tim Allen</a></span>  
+                  <p> He is a vintage cowboy doll that originally belonged to a boy
+                     named Andy Davis. As Andy's favorite since kindergarten, Woody
+                     served as the leader of Andy's toys, a position he upheld by
+                     looking out for each member of the group. When Andy enters
+                     adulthood and leaves for college, Woody is donated to a little
+                     girl named Bonnie Anderson. He remains with Bonnie for some time,
+                     before choosing to become an owner-less antique devoted to helping
+                     lost toys find owners, alongside his girlfriend Bo Peep.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col">
+               <h3>Forky</h3>
+               <div class="forky">
+                  <img src="images/character_forky.jpg" alt="">
+                  <span>Played by</span>
+                  <span><a href="https://en.wikipedia.org/wiki/Tony_Hale">Tony Hale</a></span>
+                  <p> He is a vintage cowboy doll that originally belonged to a boy
+                     named Andy Davis. As Andy's favorite since kindergarten, Woody
+                     served as the leader of Andy's toys, a position he upheld by
+                     looking out for each member of the group. When Andy enters
+                     adulthood and leaves for college, Woody is donated to a little
+                     girl named Bonnie Anderson. He remains with Bonnie for some time,
+                     before choosing to become an owner-less antique devoted to helping
+                     lost toys find owners, alongside his girlfriend Bo Peep.
+                  </p>
+               </div>
+            </div>
+            <div class="col">
+               <h3>Bo Peep</h3>
+               <div class="peep">
+                  <img src="images/character_bopeep.jpg" alt="">
+                  <span>Played by</span>
+                  <span><a href="https://en.wikipedia.org/wiki/Annie_Potts">Annie Potts</a></span> 
+                  <p> He is a vintage cowboy doll that originally belonged to a boy
+                     named Andy Davis. As Andy's favorite since kindergarten, Woody
+                     served as the leader of Andy's toys, a position he upheld by
+                     looking out for each member of the group. When Andy enters
+                     adulthood and leaves for college, Woody is donated to a little
+                     girl named Bonnie Anderson. He remains with Bonnie for some time,
+                     before choosing to become an owner-less antique devoted to helping
+                     lost toys find owners, alongside his girlfriend Bo Peep.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="yellowoody">
+         <div>
+            <p>Woody:</p>
+         </div>
+         <div>
+            <p>“Being there for a child in the most noble thing a toy can do.”</p>
+         </div>
+      </section>
+      <section class="comment">
+         <h2>Comments</h2>
+         </div>
+         <div class="yellow"></div>
+      </section>
+    
+      <div class="footer">
+         <div class="comment_label">How would you rate Toy Story 4?</div>
+       <div class="rating-floating-label">
+         <div class="form-container">
+           
+           <form id="formElement">
+             <input id="addthiscomment" class="label_input" id="opinion" placeholder=""/>
+             <div class="rating-separator"></div>
+             <div ><input  class="comment_button" type="button" onclick="do_comment()" value="Rate it!"></input></div>
+           </form>
+           
+         </div>
+         <div class="rating-separator"></div>
+         <div class="footer-container">
+             <div id="comment_ans"></div>
+             <div class="footer" ></div>
+           </div> 
+       </div>
+   </div>
+   </body>
+   <script>
+      function do_comment() {
+          if (document.getElementById("addthiscomment").value == ''){
+            document.getElementById("comment_ans").innerHTML =''
+          }
+          else{
+          document.getElementById("comment_ans").innerHTML =  document.getElementById("addthiscomment").value;
+          document.getElementById("addthiscomment").value = '';
+          }       
+      }
+  </script>
+</html>

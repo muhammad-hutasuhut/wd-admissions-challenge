@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 17px;
+  background-color: #5582c6;
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cabin', sans-serif;
+}
+
+.bg {
+  background-image: url(/images/toystory4_wallpaper.jpg);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+}
+
+.first img {
+  margin-top: -374px;
+  margin-left: 90px;
+}
+
+
+.first h1 {
+  font-size: 70px;
+  color: #960001;
+  background-color: #e7faff;
+  margin-bottom: 40px;
+  width: 400px;
+  margin-left: 35%;
+  margin-top: -105px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: 1000;
+}
+
+.first h2 {
+  color: #960001;
+  font-size: 36px;
+  font-weight: 1000;
+  padding-left: 88px;
+}
+
+.first p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 88px;
+  padding-right: 88px;
+  font-size: 13px;
+  color: white;
+}
+
+.yellow {
+  background-color: #a8c655;
+  height: 5px;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+.second h3 {
+  color: #960001;
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 88px;
+  margin-top: 20px;
+}
+
+.second img {
+  width: 125px;
+  height: 125px;
+  float: left;
+  margin-right: 20px;
+  padding-left: 88px;
+}
+
+.second p {
+  padding-left: 88px;
+  padding-right: 88px;
+  font-size: 11px;
+  color: white;
+}
+
+.second a {
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.second span {
+  color: white;
+  font-size: 15px;
+}
+
+.yellowoody {
+  margin-top: 90px;
+  color: #960001;
+  font-family: "Roboto", sans-serif;
+  background-color: #a8c655;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding-left: 88px;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+.comment h2 {
+  color: #960001;
+  font-size: 36px;
+  font-weight: 1000;
+  padding-left: 88px;
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-left: 88px;
+  color: white;
+  height: 50px;
+}
+
+.footer label {
+  padding-top: 10px;
+}
+
+#comment_ans {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  color: yellow;
+}
+
+input[type=text] {
+  width: 346px;
+  height: 38px;
+  display: block;
+  width: 346px;
+  height: 38px;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.comment_button {
+  height: 40px;
+  width: 346px;
+  border: none;
+  background-color: #79519f;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.comment_label {
+  padding: 20px 0px;
+}
+
+
+
+.label_input {
+  display: block;
+  width: 346px;
+  height: 38px;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
